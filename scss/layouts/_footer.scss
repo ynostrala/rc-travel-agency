@@ -1,0 +1,22 @@
+/* FOOTER */
+.footer{    
+    background-color: $cadet-gray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 0 10px 0 10px;
+    p{
+        margin-bottom: 0;
+    }
+    a{
+        font-weight: 700;
+        font-size: 25px;
+        img{
+            width: 50px;
+            padding: 10px;
+        }
+    }
+}

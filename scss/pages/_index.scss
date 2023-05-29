@@ -1,0 +1,52 @@
+/* Efecto Parallax pantalla Home */
+.parallax{
+    background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:  cover;
+	max-width: 100%;
+	position: relative;
+}
+
+.banner--inicio{
+    // width: 100%;
+    // height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../img/pexels-leah-kelley-3935702.jpg);
+}
+
+.buscadorVuelos{
+    width: 300px;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: rgba(177, 217, 239, 0.751);
+}
+
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    .logo-titulo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    img{
+        height: 120px;
+        padding: 10px 80px 10px 80px;
+    }
+    a{
+        text-decoration: none;
+    }
+    h5{
+        color: black;
+    }
+}
+

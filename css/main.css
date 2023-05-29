@@ -1,0 +1,90 @@
+/* RESET */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+main {
+  margin: 0 0.5% 0 0.5%; }
+
+/* PALETA 1 */
+/* SCSS Gradient */
+/* PALETA 2 */
+/* SCSS Gradient */
+body {
+  font-family: 'Karla', sans-serif; }
+
+.logo-banner h1 {
+  font-family: 'Yellowtail', cursive; }
+
+/* FOOTER */
+.footer {
+  background-color: #82979b;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 0 10px 0 10px; }
+  .footer p {
+    margin-bottom: 0; }
+  .footer a {
+    font-weight: 700;
+    font-size: 25px; }
+    .footer a img {
+      width: 50px;
+      padding: 10px; }
+
+/*HEADER*/
+header {
+  background-color: rgba(206, 201, 201, 0.388); }
+
+.logotipo {
+  height: 100px;
+  padding: 0;
+  margin: 0; }
+
+.navbar {
+  padding: 0; }
+
+/* Efecto Parallax pantalla Home */
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  position: relative; }
+
+.banner--inicio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(../img/pexels-leah-kelley-3935702.jpg); }
+
+.buscadorVuelos {
+  width: 300px;
+  padding: 20px;
+  border-radius: 50px;
+  background-color: rgba(177, 217, 239, 0.751); }
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px; }
+  .logos .logo-titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .logos img {
+    height: 120px;
+    padding: 10px 80px 10px 80px; }
+  .logos a {
+    text-decoration: none; }
+  .logos h5 {
+    color: black; }

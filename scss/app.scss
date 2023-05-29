@@ -1,0 +1,11 @@
+//Generales
+@import "./general/_general.scss";
+@import "./general/_colors.scss";
+@import "./general/_fonts.scss";
+
+//Layout
+@import "./layouts/_footer";
+@import "./layouts/_header";
+
+// Paginas
+@import "./pages/_index";
